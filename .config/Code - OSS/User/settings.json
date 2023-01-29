@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 1,
+    "editor.fontFamily": "'RobotoMono Nerd Font', 'Droid Sans Mono',  monospace, 'Droid Sans Fallback'",
+    "terminal.integrated.fontFamily": "'RobotoMono Nerd Font', monospace"
+}
