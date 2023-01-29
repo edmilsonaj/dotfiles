@@ -1,0 +1,17 @@
+profile desktop_dual {
+	output "ICD Inc HDMI1 1234567890123" mode 3840x2160 position 0,0
+	output "LG Electronics LG HDR 4K 0x00000101" mode 3840x2160 position 3840,0
+	exec swaymsg workspace 1, move workspace to "'ICD Inc HDMI1 1234567890123'"
+	exec swaymsg workspace 2, move workspace to "'LG Electronics LG HDR 4K 0x00000101'"
+	exec notify-send "Switching to desktop_dual" -u normal
+}
+
+profile desktop_single_lg {
+	output "LG Electronics LG HDR 4K 0x00000101" mode 3840x2160 position 0,0
+	exec notify-send "Switching to desktop_single_lg" -u normal
+}
+
+profile desktop_single_ozone {
+	output "ICD Inc HDMI1 1234567890123" mode 3840x2160 position 0,0
+	exec notify-send "Switching to desktop_single_ozone" -u normal
+}
