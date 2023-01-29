@@ -1,0 +1,5 @@
+window:
+  opacity: 0.5
+import:
+  - ~/.config/alacritty/dracula.yml
+  - ~/.config/alacritty/fonts.yml
